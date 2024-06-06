@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tether Length Calculator</title>
+
+<script type="text/javascript">
+
+function altRows(id){
+	if(document.getElementsByTagName){  
+		
+		var table = document.getElementById(id);  
+		var rows = table.getElementsByTagName("tr"); 
+		 
+		for(i = 0; i < rows.length; i++){          
+			if(i % 2 == 0){
+				rows[i].className = "evenrowcolor";
+			}else{
+				rows[i].className = "oddrowcolor";
+			}      
+		}
+	}
+}
+window.onload=function(){
+	altRows('alternatecolor');
+}
+
+function calc(){
+    var input = document.getElementById("itemOne");
+    var inputValue = parseFloat(input.value);
+
+
+    var answer = (1829 - Math.sqrt(((inputValue/1000) - 0.024) * (-334524100)))*1.094;
+    document.getElementById("output").value = answer.toString();
+}
+
+function altRows(id){
+	if(document.getElementsByTagName){  
+		
+		var table = document.getElementById(id);  
+		var rows = table.getElementsByTagName("tr"); 
+		 
+		for(i = 0; i < rows.length; i++){          
+			if(i % 2 == 0){
+				rows[i].className = "evenrowcolor";
+			}else{
+				rows[i].className = "oddrowcolor";
+			}      
+		}
+	}
+        }
+            window.onload=function(){
+            altRows('alternatecolor');
+        }
+
+	 
+</script>
+
+    <style>
+		.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+        
+
+
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+h2.header {
+    font-family: verdana, monospace, sans-serif;
+    font-size: 13px;
+    color: #05006b;
+}
+.boxed {
+	border: 2px red;
+}
+table.altrowstable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+body {
+	background-image: url("images/bg1.jpg");
+	background-size: 100%;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+    </style>
+</head>
+
+<body link="#FF0000" vlink="#FF0000" alink="#FF0000">
+    <table class= "altrowstable" id="alternatecolor" border= "1" align="center">
+        <tr>
+			<th colspan="3">Tether Length Calculator</th>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<h2 align="center">How to Use</h2></br>
+				<h3 align="center">Measure radius of tether roll left (half of the width of the tether roll in millimetres - use the ruler on your workbench).
+				</br></br>
+				Enter the radius in the field below and hit 'Calculate'.
+				</br></br></h3>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td colspan="2">
+				<div align="center">
+		<form>
+		<fieldset>
+			<label for= "itemOne">Enter Radius:  </label>
+        		<input type= "text" id= "itemOne"/></br>
+			<button type= "button" onclick= "javascript:calc();" style= "height:46px;width:260px;">Calculate</button>
+			
+			Approx amount of tether remaining in yards: <input type="text" id="output" />
+		</fieldset>
+		</form>
+    </div>
+			</td>
+			</tr>
+			
+<tr>
+			<td colspan="2">
+				
+			
+
+			
+    </div>
+			</td>
+			</tr>
+			<tr>
+			<td colspan="2">
+				<div align="center">
+		<a href="mailto:danmclachlan77@gmail.com" style="text-color: #FF0000;">Contact me at danmclachlan77@gmail.com!</a>
+    </div>
+			</td>
+		</tr>
+    </table>
+	
+	
+</body>
+</html>
