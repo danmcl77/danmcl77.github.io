@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght,ELSH@100..900,2&display=swap" rel="stylesheet');
   
 /* -------------------------------------------------------- */
 /* VARIABLES */
@@ -8,19 +8,19 @@
 :root {
   /* Background Colors: */
   --background-color: #eeeeee;
-  --content-background-color: #a0ff24;
-  --sidebar-background-color: #bdfffb;
+  --content-background-color: #ffffff;
+  --sidebar-background-color: #ffffff;
 
   /* Text Colors: */
   --text-color: #3f3f3f;
   --sidebar-text-color: #000000;
-  --link-color: #e80000;
-  --link-color-hover: #ec5555;
+  --link-color: #ff0000;
+  --link-color-hover: #ff00ff;
 
   /* Text: */
-  --font: Lucida Console, monospace;
-  --heading-font: Lucida Console, monospace;
-  --font-size: 14px;
+  --font: "Handjet";
+  --heading-font: "Handjet";
+  --font-size: 20px;
 
   /* Other Settings: */
   --margin: 10px;
@@ -49,8 +49,8 @@ body {
   color: var(--text-color);
   font-family: var(--font);
   line-height: 1.2;
-  background: var(--background-color);
-  background-image: url("https://cdn.eso.org/images/wallpaper4/potw2415a.jpg");
+  background: #cfcfcf;
+  /*background-image: url("https://cdn.eso.org/images/wallpaper4/potw2415a.jpg");*/
   
 }
 
@@ -68,7 +68,7 @@ mark {
 
 /* Links: */
 a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a,
@@ -86,6 +86,7 @@ a:focus {
 /* LAYOUT */
 /* -------------------------------------------------------- */
 
+
 .layout {
   width: 1000px;
   display: grid;
@@ -96,6 +97,7 @@ a:focus {
 
 main {
   grid-area: main;
+  box-shadow: -3px 3px #000000;
   overflow-y: auto;
   padding: var(--padding);
   background: var(--content-background-color);
@@ -108,6 +110,8 @@ main {
 /* -------------------------------------------------------- */
 
 header {
+  
+  box-shadow: -3px 3px #000000;
   grid-area: header;
   font-size: 1.2em;
   border: var(--border);
@@ -126,8 +130,9 @@ header {
 }
 
 .header-image img {
-  width: 100%;
   height: auto;
+  vertical-align:top;
+  width: 100%;
 }
 
 /* -------------------------------------------------------- */
@@ -135,17 +140,25 @@ header {
 /* -------------------------------------------------------- */
 
 aside {
+  /*position: fixed;
+  top: 10;
   grid-area: aside;
+  */
+  box-shadow: -3px 3px #000000;
   border: var(--border);
   border-radius: var(--round-borders);
   overflow: hidden;
   background: var(--sidebar-background-color);
   padding: var(--padding);
   color: var(--sidebar-text-color);
+  
+  
 }
 
 .left-sidebar {
+  align-items: start;
   grid-area: leftSidebar;
+  
 }
 
 .right-sidebar {
@@ -208,6 +221,7 @@ aside {
 
 footer {
   grid-area: footer;
+  box-shadow: -3px 3px #000000;
   border: var(--border);
   border-radius: var(--round-borders);
   overflow: hidden;
@@ -291,6 +305,7 @@ header nav ul li {
   position: relative;
 }
 
+
 header nav ul li:first-child > a {
   padding-left: 0;
 }
@@ -321,7 +336,7 @@ header nav ul li:focus-within ul {
 
 header nav ul li strong {
   color: var(--link-color);
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: normal;
 }
 
@@ -377,7 +392,7 @@ main blockquote {
   background: rgba(0, 0, 0, 0.1);
   padding: 15px;
   margin: 1em 0;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 main pre {
@@ -547,6 +562,7 @@ main h6 {
     border-bottom: 1px solid;
     padding: 9px;
     font-size: 0.9em;
+    
   }
 
   

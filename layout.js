@@ -28,26 +28,26 @@ function headerHTML() {
 
       <header>
 <div class="header-image">
-          <img src="https://storage.noirlab.edu/media/archives/images/screen/noao0608a.jpg" alt="" />
+          <img src="img/header.png" alt="" />
         </div>
         <div class="header-content">
-	        <div class="header-title">Website Title</div>
+	        <div class="header-title">Dan McLachlan's Funky Website</div>
 	        
 	        <!-- NAVIGATION -->
-	        <nav>
-	          <ul>
-	            <li><a href="/">Home</a></li>
-	            <li><a href="/page1">Page 1</a></li>
-	            <li><a href="/page2">Page 2</a></li>
-	            <li><a href="/page3">Page 3</a></li>
+	        <nav style=>
+	          <ul style='align-items:center;'>
+	            <li><a href="/">Home</a></li>✦
+	            <li><a href="/research">Research/Publications</a></li>✦
+	            <li><a href="/cv">My CV</a></li>✦
+	            <li><a href="/coolstuff">Cool Corner</a></li>✦
 	            <li>
-	                <strong>Submenu (hover to show)</strong>
+	                <strong>External Pages (hover to show)</strong>
 	                <ul>
-	                  <li><a href="/page-a">Page A</a></li>
-	                  <li><a href="/page-b">Page B</a></li>
-	                  <li><a href="/page-c">Page C</a></li>
-	                  <li><a href="/page-d">Page D</a></li>
-	                  <li><a href="/page-e">Page E</a></li>
+	                  <li><a href="https://github.com/danmcl77/"><img src='icons/githubdith.png' width=15 height=15> Github</a></li>
+	                  <li><a href="https://www.linkedin.com/in/dan-mclachlan-82079b243/da"><img src='icons/linkedindith.png' width=15 height=15> LinkedIn</a></li>
+	                  <li><a href="https://orcid.org/0009-0002-4783-6529"><img src='icons/orciddith.png' width=15 height=15> ORCID</a></li>
+	                  <li><a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=database%3A%20astronomy&p_=0&q=pubdate%3A%5B2020-01%20TO%209999-12%5D%20author%3A(%22McLachlan%2C%20Dan%22)&sort=date%20desc%2C%20bibcode%20desc"><img src='icons/adsdith.png' width=15 height=15> ADS Archive</a></li>
+	                  <li><a href="https://crystalmeadows.bandcamp.com/"><img src='icons/bandcampdith.png' width=15 height=15> My Music on Bandcamp</a></li>
 	                </ul>
 	            </li>
 	          </ul>
@@ -62,55 +62,47 @@ function headerHTML() {
       <!-- LEFT SIDEBAR -->
       <!-- =============================================== -->
 
-      <aside class="left-sidebar">
+      <aside class="left-sidebar" >
 	  
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
+          <div class="sidebar-title">My Vexillological Journey</div>
+          <p align=center><img src='img/irelandflagdith.png' style='max-width:30%' height=33px>   ---->          
+          <img src='img/czechflagdith.png' style='max-width:30%' height=33px></p>
         </div>
-        
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title">Collected Facts of Life and Aphorisms</div>
           <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Necessit atibus perferendis inventore tempore vel optio similique blanditiis quasi quam?</p>
+            <p>Just because you can, doesn't mean you should.</p>
+            <p>Some of us kill what some of us eat.</p>
+            <p>Nobody knows what happens when you die.</p>
+            <p>It is impossible to achieve the aim without suffering.</p>
+            <p>Even if you have an unpleasant nature and dislike people, this is no obstacle to good work.</p>
+            <p>Treat your friend as if they may one day become your enemy, but also treat your enemy as if one day they may become your friend.</p>
+            <p>By night all cats are grey.</p>
+            <p>The pen of the tongue should be dipped in the inkwell of the heart.</p>
+            <p>Life is fleeting, but art is long.</p>
+            <p>Jazz is not dead, it just smells funny.</p>
           </blockquote>
         </div>
         
-        <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <ul>
-            <li>List</li>
-            <li>List</li>
-            <li><a href="/">List</a></li>
-            <li>List</li>
-          </ul>
-        </div>
+        
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
+          <div class="sidebar-title"></div>
           <marquee>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
+          	<a href=""><img src="img/linuxnow2.gif" alt="petrapixel"></a>
+          	<a href=""><img src="img/linuxonline.gif" alt="petrapixel"></a>
+          	<a href=""><img src="img/ubuntu-88x31.gif" alt="petrapixel"></a>
+          	<a href=""><img src="img/tiredalien2.gif" alt="petrapixel"></a>
+          	
           </marquee>
+        
+          <div class='site-button'><img src="img/desktop.gif"></div>
         </div>
         
         <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <img class="full-width-image" src="https://picsum.photos/id/24/1000/400">
-        </div>
-        
-        <div class="sidebar-section">
-          <div class="sidebar-title">Section Title</div>
-          <div class="site-button">
-          	<a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-        	<textarea><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a></textarea>
-          </div>
-        </div>
+          
       </aside>
 	
       `;
@@ -129,7 +121,7 @@ function footerHTML() {
       <!-- =============================================== -->
 
       <footer>
-            <div>Footer Text. <a href="/">Link.</a> Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div>
+            <div>Website layout inspired by the <a href='https://en.wikipedia.org/wiki/ZX_Spectrum'>ZX Spectrum!</a> Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div>
       </footer>`;
 }
 
