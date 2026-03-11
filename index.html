@@ -1,212 +1,159 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
 
-<html>
-<head>
-    <title>Tether Length Calculator</title>
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>TITLE</title>
 
-<script type="text/javascript">
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="My personal website!" name="description" />
 
-function altRows(id){
-	if(document.getElementsByTagName){  
-		
-		var table = document.getElementById(id);  
-		var rows = table.getElementsByTagName("tr"); 
-		 
-		for(i = 0; i < rows.length; i++){          
-			if(i % 2 == 0){
-				rows[i].className = "evenrowcolor";
-			}else{
-				rows[i].className = "oddrowcolor";
-			}      
-		}
-	}
-}
-window.onload=function(){
-	altRows('alternatecolor');
-}
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-function calc(){
-    var input = document.getElementById("itemOne");
-    var inputValue = parseFloat(input.value);
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
 
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+    
+    <!-- JavaScript: -->
+    <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
+    <script src="./layout.js"></script>
 
-    var answer = (1829 - Math.sqrt(((inputValue/1000) - 0.024) * (-334524100)))*1.094;
-    document.getElementById("output").value = answer.toString();
-}
+    <script>
+      // Template generated with petrapixel's layout generator.
+      // (Please do not remove this credit.)
+      console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+  </head>
+  <body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
 
-function altRows(id){
-	if(document.getElementsByTagName){  
-		
-		var table = document.getElementById(id);  
-		var rows = table.getElementsByTagName("tr"); 
-		 
-		for(i = 0; i < rows.length; i++){          
-			if(i % 2 == 0){
-				rows[i].className = "evenrowcolor";
-			}else{
-				rows[i].className = "oddrowcolor";
-			}      
-		}
-	}
-        }
-            window.onload=function(){
-            altRows('alternatecolor');
-        }
+    <div class="layout">
+      
+      <!-- =============================================== -->
+      <!-- Header (and Sidebars) will be loaded per JavaScript! Edit layout.js to change. -->
+      <!-- =============================================== -->
 
-	 
-</script>
+  
+      <main id="content"> <!-- Do NOT remove the ID here -->
 
-    <style>
-		.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
-        
+        <noscript>Please enable JavaScript to view this website!</noscript>
+
+        <!-- =============================================== -->
+        <!-- MAIN CONTENT -->
+        <!-- =============================================== -->
 
 
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-<style type="text/css">
-h2.header {
-    font-family: verdana, monospace, sans-serif;
-    font-size: 13px;
-    color: #05006b;
-}
-.boxed {
-	border: 2px red;
-}
-table.altrowstable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #a9c6c9;
-	border-collapse: collapse;
-}
-table.altrowstable th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
-}
-table.altrowstable td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
-}
-.oddrowcolor{
-	background-color:#d4e3e5;
-}
-.evenrowcolor{
-	background-color:#c3dde0;
-}
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
+        <section>
 
-body {
-	background-image: url("images/bg1.jpg");
-	background-size: 100%;
-}
-.container {
-  position: relative;
-  width: 50%;
-}
+          <h1>Page Title (Heading 1)</h1>
+          <p>This layout was generated with <a href="https://petrapixel.neocities.org/" target="_blank">petrapixel</a>'s layout generator. You may remove the credit in the footer, but please leave the credit in the code. Thank you!</p>
+          <p>
+            I will now show you how to use the most common HTML text elements:
+            <b>This is bold text.</b> 
+            <strong>This is also bold text.</strong> 
+            <i>This is italic text.</i> 
+            <em>This is also italic text.</em> 
+            <strike>This is strikethrough text.</strike> 
+            <u>This is underlined text.</u> 
+            <a href="https://petrapixel.neocities.org/">This is a link.</a> 
+            <a href="https://petrapixel.neocities.org/" target="_blank">This is a link that will open in a new tab.</a> 
+            <code>This is code (displayed in a monospace font).</code>
+            <abbr title="Example.">This is an abbreviation (Try hovering over it).</abbr>
+            <mark>This is highlighted text.</mark>
+            This is a line break (The br stands for break.): <br />It's different from a paragraph because it does not add space inbetween the lines of text.
+          </p>
+          <p>This is a paragraph. As you can see, there's a bit of space between it and the previous paragraph.</p>
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+          <blockquote>This is a blockquote. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</blockquote>
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
+          <h2>Heading 2</h2>
+          <ul>
+            <li>Unsorted list</li>
+            <li>Unsorted list</li>
+            <li>Unsorted list</li>
+          </ul>
 
-.container:hover .overlay {
-  opacity: 1;
-}
+          <p>Lorem ipsum dolor sit amet.</p>
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-    </style>
-</head>
+          <ol>
+            <li>Sorted list</li>
+            <li>Sorted list</li>
+            <li>Sorted list</li>
+          </ol>
 
-<body link="#FF0000" vlink="#FF0000" alink="#FF0000">
-    <table class= "altrowstable" id="alternatecolor" border= "1" align="center">
-        <tr>
-			<th colspan="3">Tether Length Calculator</th>
-		</tr>
-		<tr>
-			<td colspan="3">
-				<h2 align="center">How to Use</h2></br>
-				<h3 align="center">Measure radius of tether roll left (half of the width of the tether roll in millimetres - use the ruler on your workbench).
-				</br></br>
-				Enter the radius in the field below and hit 'Calculate'.
-				</br></br></h3>
-			</td>
-		</tr>
-		
-		
-		<tr>
-			<td colspan="2">
-				<div align="center">
-		<form>
-		<fieldset>
-			<label for= "itemOne">Enter Radius:  </label>
-        		<input type= "text" id= "itemOne"/></br>
-			<button type= "button" onclick= "javascript:calc();" style= "height:46px;width:260px;">Calculate</button>
-			
-			Approx amount of tether remaining in yards: <input type="text" id="output" />
-		</fieldset>
-		</form>
+          <h3>Heading 3</h3>
+          <pre>This is preformatted text, which means that     spaces    are preserved:
+          :D</pre>
+
+          <p>This is preformatted code:</p>
+          <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+   &lt;h1&gt;My First Heading&lt;/h1&gt;
+   &lt;p&gt;My first paragraph.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+          <p>This is a separator line / divider:</p>
+          <hr /> <!-- hr = horizontal rule -->
+
+          <p>
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+
+          <h4>Heading 4</h4>
+
+          <p>Here are two columns:</p>
+          <div class="two-columns">
+	          <div>
+	          	<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+	          	<p>At
+            vero eos et accusam et justo duo dolores et ea rebum.</p>
+	          </div>
+	          <div>
+	          	<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+	          	<p>At
+            vero eos et accusam et justo duo dolores et ea rebum.</p>
+	          </div>
+          </div>
+
+          <h5>Heading 5</h5>
+
+          <p>This is an image:</p>
+          <img class="image" alt="" src="https://picsum.photos/id/24/200/100" />
+
+          <p>This is a full-width image:</p>
+          <img class="full-width-image" alt="" src="https://picsum.photos/id/24/1000/400" />
+
+          <p>These are multiple images in a row:</p>
+          <div class="images">
+            <img alt="" src="https://picsum.photos/id/24/1000/400" />
+            <img alt="" src="https://picsum.photos/id/24/1000/400" />
+            <img alt="" src="https://picsum.photos/id/24/1000/400" />
+          </div>
+
+          <h6>Heading 6</h6>
+          <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+        </section>
+      </main>
+      
+      <!-- =============================================== -->
+      <!-- Footer will be loaded per JavaScript! Edit layout.js to change. -->
+      <!-- =============================================== -->
+
+  
+    <!-- Closing .layout: -->
     </div>
-			</td>
-			</tr>
-			
-<tr>
-			<td colspan="2">
-				
-			
 
-			
-    </div>
-			</td>
-			</tr>
-			<tr>
-			<td colspan="2">
-				<div align="center">
-		<a href="mailto:danmclachlan77@gmail.com" style="text-color: #FF0000;">Contact me at danmclachlan77@gmail.com!</a>
-    </div>
-			</td>
-		</tr>
-    </table>
-	
-	
-</body>
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+  </body>
 </html>
