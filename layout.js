@@ -66,10 +66,14 @@ function headerHTML() {
 	  
         
         <div class="sidebar-section">
+        
           <div class="sidebar-title">My Vexillological Journey</div>
+        <blockquote>
           <p align=center><img src='img/irelandflagdith.png' style='max-width:30%' height=33px>   ---->          
           <img src='img/czechflagdith.png' style='max-width:30%' height=33px></p>
+          </blockquote>
         </div>
+        
         <div class="sidebar-section">
           <div class="sidebar-title">Collected Facts of Life and Aphorisms</div>
           <blockquote>
