@@ -36,12 +36,23 @@ function headerHTML() {
 	        <!-- NAVIGATION -->
 	        <nav style=>
 	          <ul style='align-items:center;'>
-	            <li><a href="/">Home</a></li>✦
-	            <li><a href="/research">Research/Publications</a></li>✦
-	            <li><a href="/cv">My CV</a></li>✦
-	            <li><a href="/coolstuff">Cool Corner</a></li>✦
+	            <li><a href="index.html">Home</a></li>✦
+	            <li><a href="research.html">Research/Publications</a></li>✦
+	            <li><a href="cv.html">My CV</a></li>✦
 	            <li>
-	                <strong>External Pages (hover to show)</strong>
+	                <strong>Cool Corner</strong>✦
+	                <ul>
+	                  <li><a href="spacefun.html">Space Images</a></li>
+	                  <li><a href="music.html">Music Stuff?</a></li>
+	                  <li><a href="films.html">Film Stuff?</a></li>
+	                  <li><a href="writing.html">Writings?</a></li>
+	                  <li><a href="gallery.html">Gallery</a></li>
+	                  <li><a href="coolstuff.html">Art I Enjoy</a></li>
+	                  
+	                </ul>
+	            </li>
+	            <li>
+	                <strong>External Pages</strong>
 	                <ul>
 	                  <li><a href="https://github.com/danmcl77/"><img src='icons/githubdith.png' width=15 height=15> Github</a></li>
 	                  <li><a href="https://www.linkedin.com/in/dan-mclachlan-82079b243/da"><img src='icons/linkedindith.png' width=15 height=15> LinkedIn</a></li>
@@ -78,14 +89,14 @@ function headerHTML() {
           <div class="sidebar-title">Collected Facts of Life and Aphorisms</div>
           <blockquote>
             <p>Just because you can, doesn't mean you should.</p>
-            <p>Some of us kill what some of us eat.</p>
-            <p>Nobody knows what happens when you die.</p>
             <p>It is impossible to achieve the aim without suffering.</p>
             <p>Even if you have an unpleasant nature and dislike people, this is no obstacle to good work.</p>
-            <p>Treat your friend as if they may one day become your enemy, but also treat your enemy as if one day they may become your friend.</p>
+            <p>Treat your friend as if they may one day become your enemy, but also treat your enemy as if they may one day become your friend.</p>
             <p>By night all cats are grey.</p>
             <p>The pen of the tongue should be dipped in the inkwell of the heart.</p>
             <p>Life is fleeting, but art is long.</p>
+            <p>Some of us kill what some of us eat.</p>
+            <p>Nobody knows what happens when you die.</p>
             <p>Jazz is not dead, it just smells funny.</p>
           </blockquote>
         </div>
@@ -102,10 +113,10 @@ function headerHTML() {
           	
           </marquee>
         
-          <div class='site-button'><img src="img/desktop.gif"></div>
-        </div>
+          <div class='site-button'><img src="img/desktop.gif"><img src="img/kofolabutton.png"><img src="img/guinness.png"></div>
         
-        <div class="sidebar-section">
+        
+        
           
       </aside>
 	
