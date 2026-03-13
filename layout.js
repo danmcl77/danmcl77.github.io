@@ -42,10 +42,7 @@ function headerHTML() {
 	            <li>
 	                <strong>Cool Corner</strong>✦
 	                <ul>
-	                  <li><a href="spacefun.html">Space Images</a></li>
-	                  <li><a href="music.html">Music Stuff?</a></li>
-	                  <li><a href="films.html">Film Stuff?</a></li>
-	                  <li><a href="writing.html">Writings?</a></li>
+	                  <li><a href="spacefun.html">Outreach</a></li>
 	                  <li><a href="gallery.html">Gallery</a></li>
 	                  <li><a href="coolstuff.html">Art I Enjoy</a></li>
 	                  
