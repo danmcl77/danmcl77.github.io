@@ -43,6 +43,7 @@ function headerHTML() {
 	                <strong>Cool Corner</strong>✦
 	                <ul>
 	                  <li><a href="spacefun.html">Outreach</a></li>
+	                  <li><a href="codesnippets.html">Useful Python Snippets</a></li>
 	                  <li><a href="gallery.html">Gallery</a></li>
 	                  <li><a href="coolstuff.html">Art I Enjoy</a></li>
 	                  
@@ -58,6 +59,7 @@ function headerHTML() {
 	                  <li><a href="https://crystalmeadows.bandcamp.com/"><img src='icons/bandcampdith.png' width=15 height=15> My Music on Bandcamp</a></li>
 	                </ul>
 	            </li>
+	            
 	          </ul>
 	        </nav>
         	
@@ -74,7 +76,9 @@ function headerHTML() {
 	  
         
         <div class="sidebar-section">
-        
+        <div class="sidebar-title">Email Addresses</div>
+            <a href='mailto:danmclachlan77@gmail.com'>Personal Email</a></br>
+            <a href='mailto:dan.mclachlan@matfyz.cuni.cz'>Professional Email</a>
           <div class="sidebar-title">My Vexillological Journey</div>
         <blockquote>
           <p align=center><img src='img/irelandflagdith.png' style='max-width:30%' height=33px>   ---->          
@@ -87,14 +91,14 @@ function headerHTML() {
           <blockquote>
             <p>Just because you can, doesn't mean you should.</p>
             <p>It is impossible to achieve the aim without suffering.</p>
-            <p>Even if you have an unpleasant nature and dislike people, this is no obstacle to good work.</p>
+            <p>If you have an unpleasant nature and dislike people, this is no obstacle to work.</p>
             <p>Treat your friend as if they may one day become your enemy, but also treat your enemy as if they may one day become your friend.</p>
             <p>By night all cats are grey.</p>
             <p>The pen of the tongue should be dipped in the inkwell of the heart.</p>
-            <p>Life is fleeting, but art is long.</p>
+            
             <p>Some of us kill what some of us eat.</p>
             <p>Nobody knows what happens when you die.</p>
-            <p>Jazz is not dead, it just smells funny.</p>
+            
           </blockquote>
         </div>
         
@@ -102,6 +106,7 @@ function headerHTML() {
         
         <div class="sidebar-section">
           <div class="sidebar-title"></div>
+          <!--
           <marquee>
           	<a href=""><img src="img/linuxnow2.gif" alt="petrapixel"></a>
           	<a href=""><img src="img/linuxonline.gif" alt="petrapixel"></a>
@@ -109,8 +114,8 @@ function headerHTML() {
           	<a href=""><img src="img/tiredalien2.gif" alt="petrapixel"></a>
           	
           </marquee>
-        
-          <div class='site-button'><img src="img/desktop.gif"><img src="img/kofolabutton.png"><img src="img/guinness.png"></div>
+         -->
+          <div class='site-button'><img src="img/desktop.gif" ><img src="img/kofolabutton.png"><img src="img/guinness.png"></div>
         
         
         
@@ -178,3 +183,5 @@ function getNesting() {
   if (numberOfSlashes == 1) return "./";
   return "../".repeat(numberOfSlashes - 1);
 }
+
+
