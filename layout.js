@@ -42,7 +42,7 @@ function headerHTML() {
 	            <li>
 	                <strong>Cool Corner</strong>✦
 	                <ul>
-	                  <li><a href="spacefun.html">Outreach</a></li>
+	                  <li><a href="outreach.html">Outreach</a></li>
 	                  <li><a href="codesnippets.html">Useful Python Snippets</a></li>
 	                  <li><a href="gallery.html">Gallery</a></li>
 	                  <li><a href="coolstuff.html">Art I Enjoy</a></li>
